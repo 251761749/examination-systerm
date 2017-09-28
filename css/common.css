@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul,li{
+    list-style: none;
+}
+a,a:hover,a:visited{
+    text-decoration: none;
+}
+.clearFloat{
+    zoom: 1;
+}
+.clearFloat:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+.com-top{
+    width: 100%;
+    min-width: 800px;
+    height: 84px;
+}
+.com-enterprise-tip{
+    height: 24px;
+    width: 100%;
+    background-color: #393D49;
+}
+.com-top-container{
+    float: right;
+    margin-right: 30px;
+    line-height: 24px;
+    font-size: 10px;
+}
+.com-top-container a{
+    color: #d2d2d2;
+}
+.com-logo{
+    width: 179px;
+    height: 60px;
+    display: inline-block;
+    float: left;
+    background: url("../imgs/jd.jpg") no-repeat;
+    background-size: 179px 60px;
+}
+.com-nav{
+    height: 60px;
+    margin-left: 60px;
+    float: left;
+}
+.com-navlist{
+    float: left;
+    height: 57px;
+    line-height: 57px;
+    width: 54px;
+    border-bottom: 3px solid #fff;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #26292a;
+    text-align: center;
+}
+.com-navlist:hover{
+    color: #1E9FFF;
+}
+.com-selected{
+    border-bottom: #1E9FFF solid 3px ;
+    color: #1E9FFF ;
+}
+
+.com-buy{
+    display: inline-block;
+    position: relative;
+    height: 57px;
+    width: 120px;
+    font-size: 16px;
+}
+.com-buy:hover{
+    background-color: #eee;
+}
+.com-buy>span{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 30px;
+    width: 85px;
+    background-color: #F3F5F9;
+    color: #ff7800;
+    text-align: center;
+    line-height: 30px;
+    padding: 2px 5px;
+}
+.com-mr5{
+    margin-right: 5px;
+}
+.com-notification{
+    float: right;
+    margin: 0px 60px 0 0 ;
+}
+.com-info,.com-bell,.com-vip{
+    float: right;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.com-bell a,.com-vip a{
+    color: #009ee7;
+}
+.com-bell{
+    margin-top: 3px;
+    font-size: 25px;
+}
+.com-info>img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.com-create{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.com-blue{
+    color: #1E9FFF;
+}
+#info{
+    display: none;
+    width: 270px;
+    height: 250px;
+    position: fixed;
+    right: 83px;
+    top: 78px;
+    background-color: #fff;
+}
+.info-box{
+    box-shadow:  #9F9F9F 0px 0px 20px 1px;
+}
+.com-infoContainer{
+    width: 230px;
+    margin: 0 auto;
+}
